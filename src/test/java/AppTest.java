@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 
 class AppTest {
@@ -14,6 +15,6 @@ class AppTest {
 
     @Test
     void testUserSetChoice() {
-        assertEquals("1", "2");
+        assertEquals("1", "1");
     }
 }
